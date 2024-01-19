@@ -1,7 +1,7 @@
 {
   "name": "@rnacanvas/math",
-  "version": "1.2.0",
-  "description": "A package with general math utilities",
+  "version": "1.2.1",
+  "description": "General math utilities",
   "main": "./dist/index.js",
   "scripts": {
     "test": "jest",
