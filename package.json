@@ -1,6 +1,6 @@
 {
   "name": "@rnacanvas/math",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "description": "General math utilities",
   "main": "./dist/index.js",
   "scripts": {

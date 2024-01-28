@@ -23,5 +23,6 @@ module.exports = {
       name: 'math',
       type: 'umd',
     },
+    clean: true,
   },
 };
