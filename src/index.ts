@@ -13,3 +13,6 @@ export { max };
 
 import { sortNumbers } from './sortNumbers';
 export { sortNumbers };
+
+import { sortedNumbers } from './sortedNumbers';
+export { sortedNumbers };
