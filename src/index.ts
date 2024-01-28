@@ -10,3 +10,6 @@ export { min };
 
 import { max } from './max';
 export { max };
+
+import { sortNumbers } from './sortNumbers';
+export { sortNumbers };
