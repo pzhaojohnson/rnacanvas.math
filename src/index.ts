@@ -23,3 +23,6 @@ import { sortedNumbers } from './sortedNumbers';
 export { sortedNumbers };
 
 export { sortedNumbers as sortedNumbersAscending };
+
+import { sortedNumbersDescending } from './sortedNumbersDescending';
+export { sortedNumbersDescending };
