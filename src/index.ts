@@ -11,6 +11,9 @@ export { min };
 import { max } from './max';
 export { max };
 
+import { areWithin } from './areWithin';
+export { areWithin };
+
 import { sortNumbers } from './sortNumbers';
 export { sortNumbers };
 
