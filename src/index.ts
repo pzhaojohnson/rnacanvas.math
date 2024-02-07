@@ -14,6 +14,9 @@ export { max };
 import { isBetweenInclusive } from './isBetweenInclusive';
 export { isBetweenInclusive };
 
+import { isBetweenExclusive } from './isBetweenExclusive';
+export { isBetweenExclusive };
+
 import { areWithin } from './areWithin';
 export { areWithin };
 
