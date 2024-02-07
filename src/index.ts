@@ -16,6 +16,9 @@ export { sortNumbers };
 
 export { sortNumbers as sortNumbersAscending };
 
+import { sortNumbersDescending } from './sortNumbersDescending';
+export { sortNumbersDescending };
+
 import { sortedNumbers } from './sortedNumbers';
 export { sortedNumbers };
 
