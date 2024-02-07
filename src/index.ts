@@ -14,5 +14,9 @@ export { max };
 import { sortNumbers } from './sortNumbers';
 export { sortNumbers };
 
+export { sortNumbers as sortNumbersAscending };
+
 import { sortedNumbers } from './sortedNumbers';
 export { sortedNumbers };
+
+export { sortedNumbers as sortedNumbersAscending };
