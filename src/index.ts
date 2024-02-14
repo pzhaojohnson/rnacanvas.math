@@ -5,6 +5,9 @@ import { mean } from './mean';
 export { mean };
 export { mean as average };
 
+import { median } from './median';
+export { median };
+
 import { min } from './min';
 export { min };
 
