@@ -1,7 +1,11 @@
 {
   "name": "@rnacanvas/math",
-  "version": "1.13.0",
+  "version": "1.13.1",
   "description": "General math utilities",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pzhaojohnson/rnacanvas.math.git"
+  },
   "main": "./dist/index.js",
   "scripts": {
     "test": "jest",
