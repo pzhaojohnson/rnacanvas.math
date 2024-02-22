@@ -38,3 +38,6 @@ export { sortedNumbers as sortedNumbersAscending };
 
 import { sortedNumbersDescending } from './sortedNumbersDescending';
 export { sortedNumbersDescending };
+
+import { degrees } from './degrees';
+export { degrees };
