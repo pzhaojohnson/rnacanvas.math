@@ -41,3 +41,6 @@ export { sortedNumbersDescending };
 
 import { degrees } from './degrees';
 export { degrees };
+
+import { radians } from './radians';
+export { radians };
