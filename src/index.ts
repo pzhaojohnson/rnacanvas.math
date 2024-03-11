@@ -20,6 +20,9 @@ export { isBetweenInclusive };
 import { isBetweenExclusive } from './isBetweenExclusive';
 export { isBetweenExclusive };
 
+import { clamp } from './clamp';
+export { clamp };
+
 import { areWithin } from './areWithin';
 export { areWithin };
 
