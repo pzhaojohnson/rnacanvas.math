@@ -14,5 +14,16 @@ All exports of this package can be accessed as named imports.
 // some example imports
 import { min, max } from '@rnacanvas/math';
 import { mean, median } from '@rnacanvas/math';
-import { sortNumbers } from '@rnacanvas/math';
+import { sortNumbers, sortedNumbers } from '@rnacanvas/math';
+```
+
+## `sum()`
+
+Calculates the sum of an array of numbers.
+Returns `0` for an empty array of numbers.
+
+```javascript
+sum([]); // 0
+sum([4]); // 4
+sum([5, 10, -2, 23, -54]); // -18
 ```
