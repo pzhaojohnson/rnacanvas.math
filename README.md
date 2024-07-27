@@ -43,6 +43,20 @@ mean([8, 2, -20, 16, 54]); // 12
 
 An alias for the `mean()` function.
 
+## `median()`
+
+Returns the median of an array of numbers.
+If there an even number of numbers,
+then the average of the middle two numbers is returned.
+Returns `NaN` for an empty array of numbers.
+
+```javascript
+median([]); // NaN
+median([6]); // 6
+median([11, 17]); // 14
+median([4, -9, 28, 22, 9, 7, -3]); // 7
+```
+
 ## `min()`
 
 Returns the minimum of an array of numbers.
