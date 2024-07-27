@@ -104,3 +104,27 @@ areWithin(5, 6, 2); // true
 areWithin(5, 7, 2); // true
 areWithin(5, 8, 2); // false
 ```
+
+## `degrees()`
+
+Convert a given angle in radians to degrees.
+
+```javascript
+degrees(Math.PI); // 180
+degrees(-Math.PI); // -180
+
+degrees(Math.PI / 3); // 60
+degrees(-11 * Math.PI / 4); // -495
+```
+
+## `radians()`
+
+Convert a given angle in degrees to radians.
+
+```javascript
+radians(180); // Math.PI
+radians(-180); // -Math.PI
+
+radians(60); // Math.PI / 3
+radians(-495); // -11 * Math.PI / 4
+```
