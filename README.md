@@ -42,3 +42,25 @@ mean([8, 2, -20, 16, 54]); // 12
 ## `average()`
 
 An alias for the `mean()` function.
+
+## `min()`
+
+Returns the minimum of an array of numbers.
+Returns `Infinity` for an empty array of numbers.
+
+```javascript
+min([]); // Infinity
+min([57]); // 57
+min([5, 9, -12, 18, -19, 24]); // -19
+```
+
+## `max()`
+
+Returns the maximum of an array of numbers.
+Returns `-Infinity` for an empty array of numbers.
+
+```javascript
+max([]); // -Infinity
+max([-84]); // -84
+max([18, 1, 55, -28, 19.4]); // 55
+```
