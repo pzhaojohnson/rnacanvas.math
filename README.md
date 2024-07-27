@@ -78,3 +78,15 @@ max([]); // -Infinity
 max([-84]); // -84
 max([18, 1, 55, -28, 19.4]); // 55
 ```
+
+## `clamp()`
+
+Clamp a number to a given range.
+
+```javascript
+clamp(n, floor, ceiling); // usage
+
+clamp(2, 5, 10); // 5
+clamp(18, 5, 10); // 10
+clamp(6, 5, 10); // 6 (is already in range)
+```
