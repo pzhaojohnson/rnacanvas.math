@@ -27,3 +27,18 @@ sum([]); // 0
 sum([4]); // 4
 sum([5, 10, -2, 23, -54]); // -18
 ```
+
+## `mean()`
+
+Calculates the mean of an array of numbers.
+Returns `NaN` for an empty array of numbers.
+
+```javascript
+mean([]); // NaN
+mean([18]); // 18
+mean([8, 2, -20, 16, 54]); // 12
+```
+
+## `average()`
+
+An alias for the `mean()` function.
