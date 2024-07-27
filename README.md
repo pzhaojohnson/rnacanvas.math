@@ -90,3 +90,17 @@ clamp(2, 5, 10); // 5
 clamp(18, 5, 10); // 10
 clamp(6, 5, 10); // 6 (is already in range)
 ```
+
+## `areWithin()`
+
+Returns `true` if two numbers are within a specified distance from each other.
+
+```javascript
+areWithin(n1, n2, maxDifference); // usage
+
+areWithin(5, 5, 0); // true
+areWithin(5, 5, 2); // true
+areWithin(5, 6, 2); // true
+areWithin(5, 7, 2); // true
+areWithin(5, 8, 2); // false
+```
