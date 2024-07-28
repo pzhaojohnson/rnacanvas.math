@@ -95,19 +95,23 @@ max([-84]); // -84
 max([18, 1, 55, -28, 19.4]); // 55
 ```
 
-## `isBetweenInclusive()`
+## `isBetween()`
 
 Returns `true` if and only if a number is within a specified range, inclusive.
 
 ```javascript
-isBetweenInclusive(n, floor, ceiling); // usage
+isBetween(n, floor, ceiling); // usage
 
-isBetweenInclusive(6, 7, 9); // false
-isBetweenInclusive(7, 7, 9); // true
-isBetweenInclusive(8, 7, 9); // true
-isBetweenInclusive(9, 7, 9); // true
-isBetweenInclusive(10, 7, 9); // false
+isBetween(6, 7, 9); // false
+isBetween(7, 7, 9); // true
+isBetween(8, 7, 9); // true
+isBetween(9, 7, 9); // true
+isBetween(10, 7, 9); // false
 ```
+
+## `isBetweenInclusive()`
+
+An alias for the `isBetween()` function.
 
 ## `isBetweenExclusive()`
 
