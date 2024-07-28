@@ -165,7 +165,7 @@ ns; // [-3, 8, 24, 39, 55]
 
 ## `sortNumbersAscending()`
 
-An alias for the `sortNumbers` function.
+An alias for the `sortNumbers()` function.
 
 ## `sortNumbersDescending()`
 
@@ -188,7 +188,7 @@ sortedNumbers([5, 28, -44, 2, -1]); // [-44, -1, 2, 5, 28]
 
 ## `sortedNumbersAscending()`
 
-An alias for the `sortedNumbers` function.
+An alias for the `sortedNumbers()` function.
 
 ## `sortedNumbersDescending()`
 
