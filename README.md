@@ -17,6 +17,22 @@ import { mean, median } from '@rnacanvas/math';
 import { sortNumbers, sortedNumbers } from '@rnacanvas/math';
 ```
 
+### How to pass numbers to functions/methods
+
+In general throughout this package
+collections of numbers are to be passed to functions/methods
+in the form of arrays, as opposed to argument lists.
+
+```javascript
+sum([1, 2, 3, 4, 5]); // do this
+sum(1, 2, 3, 4, 5); // NOT this
+```
+
+This decision was made due to the limit on how many arguments
+can possibly be passed to a function in JavaScript on the stack
+(often only in the 10's of thousands),
+while numbers passed in as arrays are limited only by the total memory available.
+
 ## `sum()`
 
 Calculates the sum of an array of numbers.
