@@ -17,7 +17,7 @@ import { mean, median } from '@rnacanvas/math';
 import { sortNumbers, sortedNumbers } from '@rnacanvas/math';
 ```
 
-### How to pass numbers to functions/methods
+### How to pass collections of numbers to functions/methods
 
 In general throughout this package
 collections of numbers are to be passed to functions/methods
