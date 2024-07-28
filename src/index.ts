@@ -17,6 +17,8 @@ export { max };
 import { isBetweenInclusive } from './isBetweenInclusive';
 export { isBetweenInclusive };
 
+export { isBetweenInclusive as isBetween };
+
 import { isBetweenExclusive } from './isBetweenExclusive';
 export { isBetweenExclusive };
 
