@@ -121,6 +121,52 @@ areWithin(5, 7, 2); // true
 areWithin(5, 8, 2); // false
 ```
 
+## `sortNumbers()`
+
+Sorts an array of numbers <b>in place</b> in ascending order.
+
+```javascript
+var ns = [8, -3, 55, 24, 39];
+sortNumbers(ns);
+ns; // [-3, 8, 24, 39, 55]
+```
+
+## `sortNumbersAscending()`
+
+An alias for the `sortNumbers` function.
+
+## `sortNumbersDescending()`
+
+Sorts an array of numbers <b>in place</b> in descending order.
+
+```javascript
+var ns = [9, 27, -84, 0, -19];
+sortNumbersDescending(ns);
+ns; // [27, 9, 0, -19, -84]
+```
+
+## `sortedNumbers()`
+
+Returns a copy of an array of numbers sorted in ascending order.
+Does not modify the input array of numbers.
+
+```javascript
+sortedNumbers([5, 28, -44, 2, -1]); // [-44, -1, 2, 5, 28]
+```
+
+## `sortedNumbersAscending()`
+
+An alias for the `sortedNumbers` function.
+
+## `sortedNumbersDescending()`
+
+Returns a copy of an array of numbers sorted in descending order.
+Does not modify the input array of numbers.
+
+```javascript
+sortedNumbersDescending([6, 2, 91, -15, 25]); // [91, 25, 6, 2, -15]
+```
+
 ## `degrees()`
 
 Convert a given angle in radians to degrees.
