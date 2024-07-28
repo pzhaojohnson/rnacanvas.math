@@ -95,6 +95,34 @@ max([-84]); // -84
 max([18, 1, 55, -28, 19.4]); // 55
 ```
 
+## `isBetweenInclusive()`
+
+Returns `true` if and only if a number is within a specified range, inclusive.
+
+```javascript
+isBetweenInclusive(n, floor, ceiling); // usage
+
+isBetweenInclusive(6, 7, 9); // false
+isBetweenInclusive(7, 7, 9); // true
+isBetweenInclusive(8, 7, 9); // true
+isBetweenInclusive(9, 7, 9); // true
+isBetweenInclusive(10, 7, 9); // false
+```
+
+## `isBetweenExclusive()`
+
+Returns `true` if and only if a number is within a specified range, exclusive.
+
+```javascript
+isBetweenExclusive(n, floor, ceiling); // usage
+
+isBetweenExclusive(6, 7, 9); // false
+isBetweenExclusive(7, 7, 9); // false
+isBetweenExclusive(8, 7, 9); // true
+isBetweenExclusive(9, 7, 9); // false
+isBetweenExclusive(10, 7, 9); // false
+```
+
 ## `clamp()`
 
 Clamp a number to a given range.
