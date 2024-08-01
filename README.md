@@ -20,8 +20,9 @@ import { sortNumbers, sortedNumbers } from '@rnacanvas/math';
 ### How to pass collections of numbers as parameters
 
 In general throughout this package
-collections of numbers are to be passed to functions/methods
-in the form of arrays, as opposed to lists of arguments.
+collections of numbers are passed to functions/methods
+in the form of iterable objects (e.g., an array),
+as opposed to lists of arguments.
 
 ```javascript
 sum([1, 2, 3, 4, 5]); // do this
