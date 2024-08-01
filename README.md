@@ -22,7 +22,7 @@ import { sortNumbers, sortedNumbers } from '@rnacanvas/math';
 In general throughout this package
 collections of numbers are passed to functions/methods
 in the form of iterable objects (e.g., an array),
-as opposed to lists of arguments.
+as opposed to argument lists.
 
 ```javascript
 sum([1, 2, 3, 4, 5]); // do this
