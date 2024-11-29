@@ -243,10 +243,10 @@ normalizeAngle(3 * Math.PI / 2); // -Math.PI / 2
 normalizeAngle(-Math.PI / 3); // -Math.PI / 3
 
 // normalize angles to the range [0, 2 * Math.PI) instead
-// (by passing in a second "floor" argument of zero)
+// (by passing in a second `floor` argument of zero)
 normalizeAngle(3 * Math.PI / 2, 0); // 3 * Math.PI / 2
 normalizeAngle(-Math.PI / 3, 0); // (2 * Math.PI) - (Math.PI / 3)
 
-// the second "floor" argument can be any angle
+// the second `floor` argument can be any angle
 normalizeAngle(Math.PI / 3, -14 * Math.PI); // (Math.PI / 3) - (14 * Math.PI)
 ```
