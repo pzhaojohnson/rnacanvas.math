@@ -236,17 +236,14 @@ which is the bottom end (inclusive) of the range to normalize to.
 
 ```javascript
 normalizeAngle((Math.PI / 3) + (12 * Math.PI)); // Math.PI / 3
-normalizeAngle((2 * Math.PI / 3) - (28 * Math.PI)); // 2 * Math.PI / 3
 
 // normalizes to the range [-Math.PI, Math.PI) by default
 normalizeAngle(3 * Math.PI / 2); // -Math.PI / 2
-normalizeAngle(-Math.PI / 3); // -Math.PI / 3
 
 // normalize angles to the range [0, 2 * Math.PI) instead
-// (by passing in a second `floor` argument of zero)
+// (by passing in a second "floor" argument of zero)
 normalizeAngle(3 * Math.PI / 2, 0); // 3 * Math.PI / 2
-normalizeAngle(-Math.PI / 3, 0); // (2 * Math.PI) - (Math.PI / 3)
 
-// the second `floor` argument can be any angle
-normalizeAngle(Math.PI / 3, -14 * Math.PI); // (Math.PI / 3) - (14 * Math.PI)
+// the second "floor" argument can be any angle
+normalizeAngle(Math.PI, -14 * Math.PI); // Math.PI - (14 * Math.PI)
 ```
