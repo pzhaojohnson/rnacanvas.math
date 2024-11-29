@@ -231,6 +231,9 @@ Normalize an angle (in radians) to a given range.
 By default, normalizes angles to the range `[-Math.PI, Math.PI)`,
 which is the default range returned by methods such as `Math.atan2()`.
 
+The range to normalize to is indicated by specifying a second `floor` argument,
+which is the bottom end (inclusive) of the range to normalize to.
+
 ```javascript
 normalizeAngle((Math.PI / 3) + (12 * Math.PI)); // Math.PI / 3
 normalizeAngle((2 * Math.PI / 3) - (28 * Math.PI)); // 2 * Math.PI / 3
