@@ -49,3 +49,6 @@ export { degrees };
 
 import { radians } from './radians';
 export { radians };
+
+import { normalizeAngle } from './normalizeAngle';
+export { normalizeAngle };
