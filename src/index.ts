@@ -52,3 +52,6 @@ export { radians };
 
 import { normalizeAngle } from './normalizeAngle';
 export { normalizeAngle };
+
+import { flipAway } from './flipAway';
+export { flipAway };
