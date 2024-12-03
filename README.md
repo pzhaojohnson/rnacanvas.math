@@ -247,3 +247,22 @@ normalizeAngle(3 * Math.PI / 2, 0); // 3 * Math.PI / 2
 // the second "floor" argument can be any angle
 normalizeAngle(Math.PI, -14 * Math.PI); // Math.PI - (14 * Math.PI)
 ```
+
+## `flipAway()`
+
+Flip an angle (i.e., add 180 degrees to it)
+if it is within 90 degrees of another angle.
+
+Otherwise, the `flipAway()` function simply returns the angle unchanged.
+
+Angles input to the `flipAway()` function
+and the angle returned by the `flipAway()` function
+are all to be expressed in radians.
+
+```javascript
+// Math.PI / 3 is within 90 degrees of 0
+flipAway(Math.PI / 3, 0); // 4 * Math.PI / 3
+
+// 4 * Math.PI / 3 is already more than 90 degrees away from 0
+flipAway(4 * Math.PI / 3, 0); // 4 * Math.PI / 3
+```
