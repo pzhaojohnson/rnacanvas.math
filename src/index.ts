@@ -22,9 +22,6 @@ export { isBetweenInclusive as isBetween };
 import { isBetweenExclusive } from './isBetweenExclusive';
 export { isBetweenExclusive };
 
-import { round } from './round';
-export { round };
-
 import { clamp } from './clamp';
 export { clamp };
 
@@ -46,6 +43,9 @@ export { sortedNumbers as sortedNumbersAscending };
 
 import { sortedNumbersDescending } from './sortedNumbersDescending';
 export { sortedNumbersDescending };
+
+import { round } from './round';
+export { round };
 
 import { degrees } from './degrees';
 export { degrees };
