@@ -200,6 +200,28 @@ Does not modify the input array of numbers.
 sortedNumbersDescending([6, 2, 91, -15, 25]); // [91, 25, 6, 2, -15]
 ```
 
+## `round()`
+
+Rounds a number to the specified number of decimal places
+(rounds to zero decimal places by default).
+
+Number of decimal places must be between 0 and 20, inclusive.
+(This function will throw otherwise.)
+
+```javascript
+// round to 2 decimal places
+round(1.2583, 2); // 1.26
+
+// round to 3 decimal places
+round(10.713414, 3); // 10.713
+
+// rounds to 0 decimal places by default
+round(-8.7827); // -9
+
+// explicitly round to 0 decimal places
+round(-8.7827, 0); // -9
+```
+
 ## `degrees()`
 
 Convert a given angle in radians to degrees.
