@@ -22,6 +22,9 @@ export { isBetweenInclusive as isBetween };
 import { isBetweenExclusive } from './isBetweenExclusive';
 export { isBetweenExclusive };
 
+import { round } from './round';
+export { round };
+
 import { clamp } from './clamp';
 export { clamp };
 
