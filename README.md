@@ -45,7 +45,7 @@ distance(-1, 8); // 9
 distance(8, -1); // 9
 ```
 
-## `sum()`
+## `function sum()`
 
 Calculates the sum of an array of numbers.
 Returns `0` for an empty array of numbers.
@@ -56,7 +56,7 @@ sum([4]); // 4
 sum([5, 10, -2, 23, -54]); // -18
 ```
 
-## `mean()`
+## `function mean()`
 
 Calculates the mean of an array of numbers.
 Returns `NaN` for an empty array of numbers.
@@ -67,11 +67,11 @@ mean([18]); // 18
 mean([8, 2, -20, 16, 54]); // 12
 ```
 
-## `average()`
+## `function average()`
 
 An alias for the `mean()` function.
 
-## `median()`
+## `function median()`
 
 Returns the median of an array of numbers.
 If there an even number of numbers,
@@ -85,7 +85,7 @@ median([11, 17]); // 14
 median([4, -9, 28, 22, 9, 7, -3]); // 7
 ```
 
-## `min()`
+## `function min()`
 
 Returns the minimum of an array of numbers.
 Returns `Infinity` for an empty array of numbers.
@@ -96,7 +96,7 @@ min([57]); // 57
 min([5, 9, -12, 18, -19, 24]); // -19
 ```
 
-## `max()`
+## `function max()`
 
 Returns the maximum of an array of numbers.
 Returns `-Infinity` for an empty array of numbers.
@@ -107,7 +107,7 @@ max([-84]); // -84
 max([18, 1, 55, -28, 19.4]); // 55
 ```
 
-## `isBetween()`
+## `function isBetween()`
 
 Returns `true` if and only if a number is within a specified range, inclusive.
 
@@ -121,11 +121,11 @@ isBetween(9, 7, 9); // true
 isBetween(10, 7, 9); // false
 ```
 
-## `isBetweenInclusive()`
+## `function isBetweenInclusive()`
 
 An alias for the `isBetween()` function.
 
-## `isBetweenExclusive()`
+## `function isBetweenExclusive()`
 
 Returns `true` if and only if a number is within a specified range, exclusive.
 
@@ -139,7 +139,7 @@ isBetweenExclusive(9, 7, 9); // false
 isBetweenExclusive(10, 7, 9); // false
 ```
 
-## `clamp()`
+## `function clamp()`
 
 Clamp a number to a given range.
 
@@ -151,7 +151,7 @@ clamp(18, 5, 10); // 10
 clamp(6, 5, 10); // 6 (is already in range)
 ```
 
-## `areWithin()`
+## `function areWithin()`
 
 Returns `true` if two numbers are within a specified distance from each other.
 
@@ -165,7 +165,7 @@ areWithin(5, 7, 2); // true
 areWithin(5, 8, 2); // false
 ```
 
-## `sortNumbers()`
+## `function sortNumbers()`
 
 Sorts an array of numbers <b>in place</b> in ascending order.
 
@@ -175,11 +175,11 @@ sortNumbers(ns);
 ns; // [-3, 8, 24, 39, 55]
 ```
 
-## `sortNumbersAscending()`
+## `function sortNumbersAscending()`
 
 An alias for the `sortNumbers()` function.
 
-## `sortNumbersDescending()`
+## `function sortNumbersDescending()`
 
 Sorts an array of numbers <b>in place</b> in descending order.
 
@@ -189,7 +189,7 @@ sortNumbersDescending(ns);
 ns; // [27, 9, 0, -19, -84]
 ```
 
-## `sortedNumbers()`
+## `function sortedNumbers()`
 
 Returns a copy of an array of numbers sorted in ascending order.
 Does not modify the input array of numbers.
@@ -198,11 +198,11 @@ Does not modify the input array of numbers.
 sortedNumbers([5, 28, -44, 2, -1]); // [-44, -1, 2, 5, 28]
 ```
 
-## `sortedNumbersAscending()`
+## `function sortedNumbersAscending()`
 
 An alias for the `sortedNumbers()` function.
 
-## `sortedNumbersDescending()`
+## `function sortedNumbersDescending()`
 
 Returns a copy of an array of numbers sorted in descending order.
 Does not modify the input array of numbers.
@@ -211,7 +211,7 @@ Does not modify the input array of numbers.
 sortedNumbersDescending([6, 2, 91, -15, 25]); // [91, 25, 6, 2, -15]
 ```
 
-## `round()`
+## `function round()`
 
 Rounds a number to the specified number of decimal places
 (rounds to zero decimal places by default).
@@ -233,7 +233,7 @@ round(-8.7827); // -9
 round(-8.7827, 0); // -9
 ```
 
-## `degrees()`
+## `function degrees()`
 
 Convert a given angle in radians to degrees.
 
@@ -245,7 +245,7 @@ degrees(Math.PI / 3); // 60
 degrees(-11 * Math.PI / 4); // -495
 ```
 
-## `radians()`
+## `function radians()`
 
 Convert a given angle in degrees to radians.
 
@@ -257,7 +257,7 @@ radians(60); // Math.PI / 3
 radians(-495); // -11 * Math.PI / 4
 ```
 
-##  `normalizeAngle()`
+##  `function normalizeAngle()`
 
 Normalize an angle (in radians) to a given range.
 
@@ -281,7 +281,7 @@ normalizeAngle(3 * Math.PI / 2, 0); // 3 * Math.PI / 2
 normalizeAngle(Math.PI, -14 * Math.PI); // Math.PI - (14 * Math.PI)
 ```
 
-## `flipAway()`
+## `function flipAway()`
 
 Flip an angle (i.e., add 180 degrees to it)
 if it is within 90 degrees of another angle.
