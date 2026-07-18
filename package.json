@@ -1,6 +1,6 @@
 {
   "name": "@rnacanvas/math",
-  "version": "1.21.0",
+  "version": "2.0.0",
   "description": "General math utilities",
   "repository": {
     "type": "git",
@@ -22,6 +22,6 @@
     "ts-loader": "^9.5.1",
     "typescript": "^5.3.3",
     "webpack": "^5.89.0",
-    "webpack-cli": "^6.0.1"
+    "webpack-cli": "^7.2.1"
   }
 }
