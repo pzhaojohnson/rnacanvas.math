@@ -1,3 +1,6 @@
+import { distance } from './distance';
+export { distance };
+
 import { sum } from './sum';
 export { sum };
 
