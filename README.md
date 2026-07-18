@@ -34,6 +34,17 @@ can possibly be passed to a function in JavaScript on the stack
 (often only in the 10's of thousands),
 while numbers passed in as arrays are limited only by the total memory available.
 
+## `function distance()`
+
+Returns the distance (i.e., the absolute difference) between two numbers.
+
+```javascript
+distance(-1, 8); // 9
+
+// order doesn't matter
+distance(8, -1); // 9
+```
+
 ## `sum()`
 
 Calculates the sum of an array of numbers.
